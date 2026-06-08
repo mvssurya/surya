@@ -1,0 +1,104 @@
+.R1{
+    h3{
+        color:purple;
+        font-size: 20px;
+        padding-right: 480px;
+    }
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap: 70px;
+    padding-right: 20px;
+    #btn1{
+        background-color:purple;
+        color: white;
+        border-radius: 10px;
+    }
+    p:hover{
+        color: darkmagenta;
+    }
+}
+.R2{
+    position: relative;
+}
+.text {
+    position: absolute;
+    color: white;
+    top: 10px;
+    left: 480px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.text1{
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 530px;
+    padding-top: 25px;
+    font-size: 20px;
+}
+input{
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+    top: 220px;
+    left: 680px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: purple underline 4px;
+}
+.R3{
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    column-gap: 150px;
+    margin-top: 30px;
+}
+.R4{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 320px;
+    padding-right: 30px;
+}
+.R5{
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    column-gap: 170px;
+    padding-bottom: 110px;
+    margin-left: 10px;
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+    color: purple;
+}
+#s{
+    padding-right: 40px;
+}
+#s1{
+  padding-right: 40px;
+}
+#s2{
+    padding-right: 50px;
+}
+#s3{
+    padding-right: 40px;
+}
+#btn2{
+    width: 180px;
+    height: 25px;
+    color: black;
+    background-color: goldenrod;
+    border-radius: 10px;
+    margin-left: 10px;
+}
